@@ -58,7 +58,7 @@ cd disprot_analysis
 python analysis.py
 ```
 
-### Running Benchmark Analysis
+### Running Multimer Benchmark 90 Analysis
 
 ```bash
 cd benchmark_90_analysis
