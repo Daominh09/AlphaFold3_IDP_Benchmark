@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""
-AlphaFold3 Multi-Seed DockQ Analysis with AlphaFold2 Comparison
-Analyzes DockQ scores across different random seeds for AF3 predictions
-and compares with AlphaFold2 predictions
-"""
-
 import os
 import re
 import subprocess
