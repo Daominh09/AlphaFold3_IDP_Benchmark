@@ -1,0 +1,37 @@
+============================================================
+REGRESSION ANALYSIS SUMMARY: AF2 vs AF3
+============================================================
+
+Metric                                        AF2      AF3
+------------------------------------------------------------
+Number of samples                              10       10
+
+R² Values:
+  Disorder alone                            0.645    0.149
+  DSSP alone                                0.372    0.198
+  Both together                             0.713    0.205
+
+Pearson Correlations:
+  Disorder vs DockQ (AF2)                  -0.803 (p=5.1451e-03)
+  DSSP vs DockQ (AF2)                       0.610 (p=6.1144e-02)
+  Disorder vs DockQ (AF3)                  -0.385 (p=2.7144e-01)
+  DSSP vs DockQ (AF3)                       0.445 (p=1.9731e-01)
+
+Improvement (ΔR²):
+  Adding DSSP to Disorder                   0.068    0.057
+  Adding Disorder to DSSP                   0.341    0.007
+
+============================================================
+
+MODEL COEFFICIENTS:
+
+AF2:
+  Model 1 (Disorder only): DockQ = 0.789 + -1.225 × Disorder
+  Model 2 (DSSP only):     DockQ = -1.288 + 1.987 × DSSP
+  Model 3 (Both):          DockQ = -0.142 + -1.012 × Disorder + 0.966 × DSSP
+
+AF3:
+  Model 1 (Disorder only): DockQ = 0.509 + -0.996 × Disorder
+  Model 2 (DSSP only):     DockQ = -0.727 + 1.239 × DSSP
+  Model 3 (Both):          DockQ = -0.460 + -0.321 × Disorder + 0.984 × DSSP
+

@@ -1,0 +1,3 @@
+model,total,high_count,medium_count,acceptable_count,incorrect_count,success_rate_acceptable,success_rate_medium,success_rate_high
+AF2,90,21,43,8,18,80.0,71.11111111111111,23.333333333333332
+AF3,90,26,34,13,17,81.11111111111111,66.66666666666666,28.888888888888886
