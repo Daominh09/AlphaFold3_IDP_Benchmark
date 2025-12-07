@@ -55,7 +55,7 @@ conda install -c conda-forge pymol-open-source -y
 
 ```bash
 cd disprot_analysis
-python analysis.py
+python evaluate_monomers.py
 ```
 
 ### Running Multimer Benchmark 90 Analysis
@@ -64,7 +64,7 @@ python analysis.py
 cd benchmark_90_analysis
 
 # Run DockQ evaluation
-python run_dockq.py
+python evaluate_dockq.py
 
 # Evaluate interface properties
 python evaluate_interface.py
