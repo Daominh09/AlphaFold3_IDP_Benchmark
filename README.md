@@ -1,6 +1,6 @@
-# AlphaFold3 and Intrinsically Disordered Proteins: Reliable Monomer Prediction, Unpredictable Multimer Performance
+# AlphaFold3 and Intrinsically Disordered Proteins Prediction Benchmark
 
-This repository contains the code and analysis scripts for our research paper on benchmarking AF3 for IDPs prediction.
+This repository contains the code and analysis scripts for our research paper "AlphaFold3 and Intrinsically Disordered Proteins: Reliable Monomer Prediction, Unpredictable Multimer Performance"
 
 ## Analysis Modules
 
@@ -41,8 +41,11 @@ Multimer structure prediction and analysis on MFIB dataset.
 git clone <repository-url>
 cd AF3_ANALYSIS
 
-# Install dependencies
-pip install -r requirements.txt
+# Setup environment and install dependencies
+conda create -n AF3xIDP python=3.11 -y
+conda activate AF3xIDP
+conda install -c conda-forge numpy pandas matplotlib seaborn scipy scikit-learn biopython requests -y
+conda install -c conda-forge pymol-open-source -y
 ```
 
 ## Usage
